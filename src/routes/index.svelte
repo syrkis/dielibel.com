@@ -8,7 +8,7 @@
         <div class='grid-item'><Definition /></div>
         <div class="grid-item" id="red-square"></div>
         <div class="grid-item"><Newsletter /></div>
-        <div class="grid-item">4</div>
+	<a href="/dialogues"><div class="grid-item"><h2>DIALOGUES</h2></div></a>
         <div class="grid-item">5</div>
         <div class="grid-item">6</div>
     </div>
@@ -21,7 +21,7 @@
     }
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
         grid-auto-rows: 1fr;
         padding: 10px;
     }
