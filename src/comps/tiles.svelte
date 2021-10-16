@@ -6,7 +6,7 @@
 
 <div class='tiles'>
     <Tile><div class='tile'><Template /></div></Tile>
-    <Tile background="#da3527"><div class='tile'></div></Tile>
+    <Tile background="#da3527" margin="10vh"><div class='tile'></div></Tile>
     <Tile><div class='tile'><Template /></div></Tile>
     <Tile><div class='tile'><Template /></div></Tile>
     <Tile><div class='tile'><Template /></div></Tile>

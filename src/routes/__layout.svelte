@@ -1,8 +1,6 @@
 <div class='wrapper'>
-    <aside class="rotate">
-        Die Libel | The Libel | The, Bart, The | Noah Syrkis | Folke Sverdrup Saenger
-    </aside>
 
+    <aside class="rotate">Die Libel | The Libel | The, Bart, The | Noah Syrkis | Folke Sverdrup Saenger</aside>
     <slot />
 </div>
 
