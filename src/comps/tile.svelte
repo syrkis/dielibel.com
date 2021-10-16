@@ -9,7 +9,9 @@
 
     onMount(async () => {
             const element = document.querySelectorAll(".js-tilt");
+            const redSquare = document.querySelector(".red-square");
             VanillaTilt.init(element, { max: 7, scale: 1.05, speed: 1000 });
+            VanillaTilt.init(redSquare, { max: 15, scale: 1.1, speed: 7000, "full-page-listening": true, reverse: true });
     });
 </script>
 
@@ -17,7 +19,7 @@
     background: {background};
     margin: {margin};
     border: {border}
-">
+" >
     <div class="inner">
         <div class='wrapper'>
             <slot />
