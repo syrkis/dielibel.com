@@ -1,8 +1,7 @@
 body {
     color: #da3527;
-    font-size: 1.1em;
+    @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+    font-family: 'Scheherazade New', serif;
 }
 
-a {
-	color: #da3527;
-}
+a { color: #da3527; text-decoration: none; }

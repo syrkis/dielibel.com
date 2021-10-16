@@ -1,13 +1,14 @@
 <script>
     import Tile from './tile.svelte';
     import Template from './tiles/template.svelte';
-    import RedSquare from './tiles/red_square.svelte';
+    import Definition from './tiles/definition.svelte';
+    import Newsletter from './tiles/newsletter.svelte';
 </script>
 
 <div class='tiles'>
-    <Tile><div class='tile'><Template /></div></Tile>
+    <Tile><div class='tile'><Definition /></div></Tile>
     <Tile background="#da3527" margin="10vh"><div class='tile'></div></Tile>
-    <Tile><div class='tile'><Template /></div></Tile>
+    <a href="https://dielibel.substack.com" target=_blank ><Tile><div class='tile'><Newsletter /></div></Tile></a>
     <Tile><div class='tile'><Template /></div></Tile>
     <Tile><div class='tile'><Template /></div></Tile>
     <Tile><div class='tile'><Template /></div></Tile>
