@@ -6,12 +6,12 @@
 </script>
 
 <div class='tiles'>
-    <Tile><div class='tile'><Definition /></div></Tile>
+    <Tile border="none" tilt="false"><div class='tile'><Definition /></div></Tile>
     <Tile background="#da3527" margin="10vh"><div class='tile'></div></Tile>
+    <Tile><div class='tile'><Template /></div></Tile>
+    <Tile><div class='tile'><Template /></div></Tile>
+    <Tile><div class='tile'><Template /></div></Tile>
     <a href="https://dielibel.substack.com" target=_blank ><Tile><div class='tile'><Newsletter /></div></Tile></a>
-    <Tile><div class='tile'><Template /></div></Tile>
-    <Tile><div class='tile'><Template /></div></Tile>
-    <Tile><div class='tile'><Template /></div></Tile>
 </div>
 
 <style>

@@ -5,6 +5,7 @@
     export let background = "none";
     export let margin = "0";
     export let border = "solid #da3527 2px";
+    export let tilt = 'js-tilt';
 
     onMount(async () => {
             const element = document.querySelectorAll(".js-tilt");
@@ -12,7 +13,7 @@
     });
 </script>
 
-<div class='js-tilt' style="
+<div class='{tilt}' style="
     background: {background};
     margin: {margin};
     border: {border}

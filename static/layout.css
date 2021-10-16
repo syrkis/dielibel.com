@@ -2,6 +2,7 @@ body {
     color: #da3527;
     @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
     font-family: 'Scheherazade New', serif;
+    letter-spacing: 0.15em;
 }
 
 a { color: #da3527; text-decoration: none; }
