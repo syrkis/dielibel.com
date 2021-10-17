@@ -9,7 +9,7 @@
 <div class='tiles'>
     <Tile border="none" tilt="false"><div class='tile'><Definition /></div></Tile>
     <Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile>
-    <Tile tilt="false" ><div class='tile'><Template /></div></Tile>
+    <Tile border="none" tilt="false" ><div class='tile'><Template /></div></Tile>
     <Tile tilt="false" ><div class='tile'><Articles /></div></Tile>
     <Tile tilt="false" ><div class='tile'><Template /></div></Tile>
     <a href="https://dielibel.substack.com" target=_blank ><Tile><div class='tile'><Newsletter /></div></Tile></a>
