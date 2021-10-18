@@ -4,7 +4,7 @@
     import Definition from './tiles/definition.svelte';
     import Newsletter from './tiles/newsletter.svelte';
     import Everythingism from './tiles/everythingism.svelte';
-    import Dialogues from './tiles/Dialogues.svelte';
+    import Dialogues from './tiles/dialogues.svelte';
     import OldTimers from './tiles/old_timers.svelte';
 </script>
 
@@ -12,7 +12,7 @@
     <Tile border="none" tilt="false"><div class='tile'><Definition /></div></Tile>
     <Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile>
     <a href="/old_timers"><Tile border="none" tilt="false" ><div class='tile'><OldTimers /></div></Tile></a>
-    <Tile border="none" tilt="false" ><div class='tile'><Template /></div></Tile>
+    <a href="https://dielibel.substack.com" target=_blank ><Tile><div class='tile'><Newsletter /></div></Tile></a>
     <Tile tilt="false" ><div class='tile'><Dialogues /></div></Tile>
     <a href="https://dielibel.substack.com" target=_blank ><Tile><div class='tile'><Newsletter /></div></Tile></a>
 </div>

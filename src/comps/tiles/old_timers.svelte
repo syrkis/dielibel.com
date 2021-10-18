@@ -1,4 +1,4 @@
-<div>
+<div class='wrapper'>
     <div class='header'>
         <h2>
             OLD TIMERS
@@ -18,19 +18,23 @@
             Those last couple of days outside the park is the subject of conversation....
         </p>
     </div>
-    <div class='plug'>
+    <div class='bottom'>
     </div>
 </div>
 
 <style>
+    .wrapper {
+        margin-top: 20px;
+        position: relative
+    }
     .content {
-        width: 80%;
-        height: 100%;
+        width: 90%;
+        height: 50%;
         margin: auto;
     }
     .content p {
         display: block;
-        max-height: 60%;
+        max-height: 100%;
         overflow-y: scroll;
     }
     p {
@@ -42,6 +46,18 @@
     .header {
         text-align: center;
         font-family: 'Roboto', sans-serif;
+        padding-top: 10px;
+        border-top: #da3527 solid 2px;
+        width: 75%;
+        height: 20%;
+        margin: auto;
+    }
+    .bottom {
+        border-bottom: #da3527 solid 2px;
+        width: 70%;
+        margin: auto;
+        padding-top: 30px;
+        
     }
 </style>
 
