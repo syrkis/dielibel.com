@@ -4,14 +4,14 @@
 
     export let background = "none";
     export let margin = "0";
-    export let border = "solid #da3527 2px";
+    export let border = "solid #da3527 1.5px";
     export let tilt = 'js-tilt';
 
     onMount(async () => {
             const element = document.querySelectorAll(".js-tilt");
             const redSquare = document.querySelector(".red-square");
-            VanillaTilt.init(element, { max: 7, scale: 1.05, speed: 1000 });
-            VanillaTilt.init(redSquare, { max: 15, scale: 1.1, speed: 7000, "full-page-listening": true, reverse: true });
+            VanillaTilt.init(element, { max: 2, scale: 1.01, speed: 7000 });
+            VanillaTilt.init(redSquare, { max: 5, scale: 1.01, speed: 7000, "full-page-listening": true, reverse: true });
     });
 </script>
 

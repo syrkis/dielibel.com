@@ -12,8 +12,7 @@
     <Tile border="none" tilt="false"><div class='tile'><Definition /></div></Tile>
     <Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile>
     <a href="/old_timers"><Tile border="none" tilt="false" ><div class='tile'><OldTimers /></div></Tile></a>
-    <a href="https://dielibel.substack.com" target=_blank ><Tile><div class='tile'><Newsletter /></div></Tile></a>
-    <Tile tilt="false" ><div class='tile'><Dialogues /></div></Tile>
+    <Tile tilt="false" border="none" ><div class='tile'><Dialogues /></div></Tile>
     <a href="https://dielibel.substack.com" target=_blank ><Tile><div class='tile'><Newsletter /></div></Tile></a>
 </div>
 
@@ -28,18 +27,12 @@
         justify-content: center;
     }
     @media only screen and (max-width: 600px) {
-        .tiles {
-            grid-template-columns: 1fr;
-        }
+        .tiles { grid-template-columns: 1fr; }
     }
     @media only screen and (max-width: 1200px) and (min-width: 600px) {
-        .tiles {
-            grid-template-columns: 1fr 1fr;
-        }
+        .tiles { grid-template-columns: 1fr 1fr; }
     }
     @media only screen and (min-width: 1200px) {
-        .tiles {
-            grid-template-columns: 1fr 1fr 1fr;
-        }
+        .tiles { grid-template-columns: 1fr 1fr 1fr; }
     }
 </style>
