@@ -11,11 +11,11 @@
             const element = document.querySelectorAll(".js-tilt");
             const redSquare = document.querySelector(".red-square");
             VanillaTilt.init(element, { max: 2, scale: 1.01, speed: 7000 });
-            VanillaTilt.init(redSquare, { max: 5, scale: 1.01, speed: 7000, "full-page-listening": true, reverse: true });
+            VanillaTilt.init(redSquare, { max: 5, scale: 1.03, speed: 10000, "full-page-listening": true, reverse: true });
     });
 </script>
 
-<div class='{tilt}' style="
+<div class='{tilt} wrapper' style="
     background: {background};
     margin: {margin};
     border: {border}

@@ -1,5 +1,6 @@
 body {
     color: #da3527;
+    margin: 0;
     @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
     font-family: 'Scheherazade New', serif;
     letter-spacing: 0.15em;
