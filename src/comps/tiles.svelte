@@ -11,7 +11,7 @@
 <div class='tiles'>
     <Tile border="none" tilt="false"><div class='tile'><Definition /></div></Tile>
     <Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile>
-    <Tile border="none" tilt="false"><div class='tile'><Everythingism /></div></Tile>
+    <a href="/everythingism"><Tile border="none" tilt="false"><div class='tile'><Everythingism /></div></Tile></a>
     <a href="/old_timers"><Tile border="none" tilt="false" ><div class='tile'><OldTimers /></div></Tile></a>
 </div>
 
