@@ -4,12 +4,14 @@
             Die Libel \\
             <a target="_blank" href="https://sverdrupsaenger.com">Folke Sverdrup Saenger</a>\\
             <a target="_blank" href="https://syrkis.com">Noah Syrkis</a>\\
+            Frederik Lovric \\
             <a target="_blank" href="https://ottolotz.com">Otto Lotz</a>\\
             <a target="_blank" href="https://thortaohansen.com">Thor Tao Hansen</a>\\
             The Libel \\&nbsp
             Die Libel \\
             <a target="_blank" href="https://sverdrupsaenger.com">Folke Sverdrup Saenger</a>\\
             <a target="_blank" href="https://syrkis.com">Noah Syrkis</a>\\
+            Frederik Lovric \\
             <a target="_blank" href="https://ottolotz.com">Otto Lotz</a>\\
             <a target="_blank" href="https://thortaohansen.com">Thor Tao Hansen</a>\\
             The Libel \\&nbsp
@@ -18,12 +20,14 @@
             Die Libel \\
             <a target="_blank" href="https://sverdrupsaenger.com">Folke Sverdrup Saenger</a>\\
             <a target="_blank" href="https://syrkis.com">Noah Syrkis</a>\\
+            Frederik Lovric \\
             <a target="_blank" href="https://ottolotz.com">Otto Lotz</a>\\
             <a target="_blank" href="https://thortaohansen.com">Thor Tao Hansen</a>\\
             The Libel \\&nbsp
             Die Libel \\
             <a target="_blank" href="https://sverdrupsaenger.com">Folke Sverdrup Saenger</a>\\
             <a target="_blank" href="https://syrkis.com">Noah Syrkis</a>\\
+            Frederik Lovric \\
             <a target="_blank" href="https://ottolotz.com">Otto Lotz</a>\\
             <a target="_blank" href="https://thortaohansen.com">Thor Tao Hansen</a>\\
             The Libel \\&nbsp
