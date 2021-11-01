@@ -2,20 +2,27 @@
     <div class="element">
         <div class="header">
             <h1>
-                DIE LIBEL.
+                [DIE] LIBEL.
             </h1>
+        </div>
+        <div>
+            <p>
+                li·bel | \ ˈlī-bəl \
+            </p> 
         </div>
         <div>
             <ul>
                 <li>
-                    <i>a written or oral defamatory statement or representation that conveys an unjustly unfavorable impression</i>
+                    <i>
+                        a written or oral defamatory statement or representation that conveys an unjustly unfavorable impression
+                    </i> 
                 </li>
                 <li>
-                    archaic : <i>a handbill especially attacking or defaming someone</i>
+                    // They sued the paper for <i>libel</i>.
                 </li>
             </ul>
             <div class='cite'>
-                - Merriam-Webster
+                – Merriam-Webster
             </div>
         </div>
     </div>
@@ -23,13 +30,13 @@
 
 <style>
     .cite { text-align: right; }
-    ul{ list-style:none; }
-    li { padding: 10px; text-indent: 2em; text-align: justify; hyphens: auto; }
+    ul{ list-style:none; padding-left: 1em;}
+    li { padding: 7px 0; text-indent: 1em; text-align: justify; }
     .header {
         font-style: italic;
     }
     .element {
-        width: 85%;
+        width: 90%;
         top: 50%;
         left: 50%;
         margin-right: -50%;

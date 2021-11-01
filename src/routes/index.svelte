@@ -4,10 +4,8 @@
 </script>
 
 <div class='wrapper'>
-    <div id="banner-wrapper">
-        <div id='banner'>
-            <Banner />
-        </div>
+    <div id='banner'>
+        <Banner />
     </div>
     <div id="tiles">
         <Tiles />
@@ -15,10 +13,11 @@
 </div>
 
 <style>
-    .wrapper {
+    #tiles {
+        padding-left: 3em;
     }
-    #banner {
-        width: 100vh;
+    @media only screen and (max-width: 600px) {
+        #banner { display: none; }
+        #tiles { padding-left: 0; }
     }
-      
 </style>
