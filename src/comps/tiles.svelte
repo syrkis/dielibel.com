@@ -22,6 +22,7 @@
     }
     .tiles .tile {
         aspect-ratio: 1;
+        height: 100%;
         display: flex;
         justify-content: center;
     }
