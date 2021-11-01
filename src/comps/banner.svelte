@@ -46,6 +46,8 @@
 
     .marquee {
         background: #da3527;
+        line-height: 0em;
+        padding: 55;
         white-space: nowrap;
         overflow: hidden;
         animation: marquee 42s linear infinite;
