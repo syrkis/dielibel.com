@@ -3,7 +3,7 @@
     import axios from 'axios';
     import SvelteMarkdown from 'svelte-markdown';
 
-    let url = "https://raw.githubusercontent.com/syrkis/writings/master/everythingism.md"
+    let url = "https://raw.githubusercontent.com/folkesverdrup/texts/main/everythingism.md"
     let source = "";
     
     onMount(async () => {
