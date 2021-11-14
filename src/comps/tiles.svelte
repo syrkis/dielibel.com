@@ -14,7 +14,7 @@
     <Tile border="none" tilt="false"><div class='tile'><Drawing /></div></Tile>
     <a href="/turk"><Tile border="none" tilt="false"><div class='tile'><Turk /></div></Tile></a>
     <a href="/everythingism"><Tile border="none" tilt='false' ><div class='tile' ><Everythingism /></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile ><div class='tile'><Newsletter /></div></Tile></a>
+    <a href="https://dielibel.substack.com"><Tile><div class='tile'><Newsletter /></div></Tile></a>
 </div>
 
 <style>
@@ -25,6 +25,7 @@
     .tiles {
         display: grid;
         grid-gap: 5px;
+        padding: 10px;
     }
     .tiles .tile {
         aspect-ratio: 1;

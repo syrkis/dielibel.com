@@ -10,7 +10,7 @@
     onMount(async () => {
             const element = document.querySelectorAll(".js-tilt");
             const redSquare = document.querySelector(".red-square");
-            VanillaTilt.init(element, { max: 5, scale: 1.07, speed: 1000 });
+            VanillaTilt.init(element, { max: 3, scale: 1.02, speed: 5000 });
             VanillaTilt.init(redSquare, { max: 10, scale: 1.07, speed: 5000, "full-page-listening": true, reverse: true });
     });
 </script>
