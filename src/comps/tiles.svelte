@@ -4,18 +4,24 @@
     import Definition from './tiles/definition.svelte';
     import Newsletter from './tiles/newsletter.svelte';
     import Everythingism from './tiles/everythingism.svelte';
+    import Interviewer from './tiles/interviewer.svelte';
+    import Drawing from './tiles/drawing.svelte';
 </script>
 
 <div class='tiles'>
     <Tile border="none" tilt="false"><div class='tile'><Definition /></div></Tile>
     <Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile>
+    <Tile border="none" tilt="false"><div class='tile'><Drawing /></div></Tile>
+    <a href="/turk"><Tile border="none" tilt='false' ><div class='tile' ><Interviewer /></div></Tile></a>
     <a href="/everythingism"><Tile border="none" tilt="false"><div class='tile'><Everythingism /></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile border='none'><div class='tile'><Newsletter /></div></Tile></a>
-    <Tile tilt='fales' border='none'><div class='tile'><Images /></div></Tile>
     <a href="https://dielibel.substack.com"><Tile ><div class='tile'><Newsletter /></div></Tile></a>
 </div>
 
 <style>
+    #interviewer {
+        background: url('https://syrkis.ams3.cdn.digitaloceanspaces.com/noah/bciioi/1.jpg');
+
+    }
     .tiles {
         display: grid;
         grid-gap: 5px;
