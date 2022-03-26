@@ -10,7 +10,7 @@
 
 <div class='tiles'>
     <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <Tile border="None"  margin="10vh"><div class='tile'></div></Tile>
+    <!--<Tile border="None"  margin="10vh"><div class='tile'></div></Tile>-->
 </div>
 
 <style>
