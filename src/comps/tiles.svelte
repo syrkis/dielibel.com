@@ -9,12 +9,8 @@
 </script>
 
 <div class='tiles'>
-    <Tile border="none" tilt="false"><div class='tile'><Definition /></div></Tile>
-    <Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile>
-    <Tile border="none" tilt="false"><div class='tile'><Drawing /></div></Tile>
-    <a href="/turk"><Tile border="none" tilt="false"><div class='tile'><Turk /></div></Tile></a>
-    <a href="/everythingism"><Tile border="none" tilt='false' ><div class='tile' ><Everythingism /></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile><div class='tile'><Newsletter /></div></Tile></a>
+    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
+    <Tile border="None"  margin="10vh"><div class='tile'></div></Tile>
 </div>
 
 <style>
@@ -36,10 +32,10 @@
     @media only screen and (max-width: 600px) {
         .tiles { grid-template-columns: 1fr; }
     }
-    @media only screen and (max-width: 1200px) and (min-width: 600px) {
+    /*@media only screen and (max-width: 1200px) and (min-width: 600px) {
         .tiles { grid-template-columns: 1fr 1fr; }
     }
     @media only screen and (min-width: 1200px) {
         .tiles { grid-template-columns: 1fr 1fr 1fr; }
-    }
+    }*/
 </style>

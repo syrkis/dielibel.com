@@ -42,6 +42,7 @@
         overflow: hidden;
         position: fixed;
         color: white;
+        text-transform: uppercase;
     }
 
     .marquee {
