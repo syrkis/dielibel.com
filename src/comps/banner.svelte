@@ -4,15 +4,14 @@
             Die Libel \\
             <a target="_blank" href="https://sverdrupsaenger.com">Folke Sverdrup Saenger</a>\\
             <a target="_blank" href="https://syrkis.com">Noah Syrkis</a>\\
-            <a target="_blank" href="https://ottolotz.com">Otto Lotz</a>\\
+
             <a target="_blank" href="https://thortaohansen.com">Thor Tao Hansen</a>\\
             The Libel \\&nbsp
             Die Libel \\
             <a target="_blank" href="https://sverdrupsaenger.com">Folke Sverdrup Saenger</a>\\
             <a target="_blank" href="https://syrkis.com">Noah Syrkis</a>\\
             <a target="_blank" href="https://ottolotz.com">Otto Lotz</a>\\
-            <a target="_blank" href="https://thortaohansen.com">Thor Tao Hansen</a>\\
-            The Libel \\&nbsp
+            <a target="_blank" href="https://thortaohansen.com">Thor Tao Hansen</a>\\ The Libel \\&nbsp
         </p>
         <p>
             Die Libel \\
@@ -42,7 +41,6 @@
         overflow: hidden;
         position: fixed;
         color: white;
-        text-transform: uppercase;
     }
 
     .marquee {

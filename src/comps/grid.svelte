@@ -1,11 +1,20 @@
 <script>
     import Tile from './tile.svelte';
-    import Images from './tiles/images.svelte';
-    import Definition from './tiles/definition.svelte';
-    import Newsletter from './tiles/newsletter.svelte';
-    import Everythingism from './tiles/everythingism.svelte';
-    import Turk from './tiles/turk.svelte';
-    import Drawing from './tiles/drawing.svelte';
+
+    let tiles = [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ]
 </script>
 
 <div class='tiles'>

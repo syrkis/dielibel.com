@@ -1,9 +1,0 @@
-<div>
-    <h2>
-        ARTICLES
-    </h2>
-    <div>
-        <ul>
-        </ul>
-    </div>
-</div>
