@@ -27,10 +27,10 @@
         display: flex;
         justify-content: center;
     }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 800px) {
         .tiles { grid-template-columns: 1fr; }
     }
-    @media only screen and (min-width: 900px) {
+    @media only screen and (min-width: 800px) {
         .tiles { grid-template-columns: 1fr 1fr; }
     }
     @media only screen and (min-width: 1200px) {
