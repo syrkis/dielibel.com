@@ -2,34 +2,17 @@
     import Tile from './tile.svelte';
 
     let tiles = [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {"name": "favicon"}, {"name": "us-and-them"}, {"name": "everythingism"},
+        {"name": "the-doubt-and-the-fun"}, {"name": "the-doubt-and-the-fun-alt"}, {"name": "us-and-them-alt"},
+        {"name": "us-and-them"}, {"name": "us-and-them-alt"}, {"name": "us-and-them"},
+        {"name": "us-and-them"}, {"name": "us-and-them"}, {"name": "us-and-them"}
     ]
 </script>
 
 <div class='tiles'>
-    <Tile background="favicon" margin="75px" tilt="red-square"><div class='tile'></div></Tile>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
-    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    {#each tiles as tile}  
+        <Tile background={tile.name} tilt="none"><div class='tile'></div></Tile>
+    {/each}
 </div>
 
 <style>

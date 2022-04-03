@@ -17,7 +17,7 @@
 </script>
 
 <div class='{tilt} wrapper' style="
-    margin: {margin};
+    margin: 70px;
 " >
     <div class="inner">
         <div class='wrapper' style="background: url('{remote}/{background}.png'); background-size: cover;">
