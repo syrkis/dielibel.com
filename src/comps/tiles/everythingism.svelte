@@ -1,10 +1,6 @@
 <div class='wrapper'>
-    <div class='header'>
-        <h2>EVERYTHINGISM</h2>
-        <i>by</i> : Folke Sverdrup Saenger
-    </div>
     <p>
-        On the overproduction of imagery in contemporary art and architecture. Everythingism, a response to the concept of content based lifestyles, where everything has become tokenized, recorded, made as fast-food, use-and-discard image and video for us to coonsoom´1. A lens with which to perceive the world less dogmatically and logically, but through a filter of a highly defined and personal sense, a system and rule of thought - a list of twelve rules to lay down for yourself when consuming content and choosing what to and what not to indulge.
+        I was wandering the streets. A hobo in every aspect but for my head. My eyes were too innocent—misleadingly so, I thought—and my mind was too self-conscious. I was too aware of my own authenticity, as I trodded along purposelessly through those quaint little back alleys that the make the city I live. I live in a city of dumpsters, bars and bridges. Others here, I suspect, live in a city of restaurants and lawyers offices; titans of industry I imagine them to be. What frail shoes they wear as they walk past me here! I wear boots. Stinking boots.
     </p>
 </div>
 
@@ -13,18 +9,16 @@
         width: 100%;
         position: relative;
         display: block;
-        height: 100%;
+        height: 80%;
         overflow: auto;
-        text-overflow: ellipsis;
-    }
-    p:first-letter {
-            font-size: 32px;
     }
     p {
+        font-size: 1.5em;
         text-align: justify;
         text-align-last: center;
         line-height: 2em;
         width: 80%;
+        height: 80%;
         margin: auto;
     }
     .header {

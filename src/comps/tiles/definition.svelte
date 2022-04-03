@@ -1,50 +1,19 @@
 <div class='wrapper'>
-    <div class="element">
-        <div class="header">
-            <h1>
-                [DIE] LIBEL.
-            </h1>
-        </div>
-        <div>
-            <p>
-                li·bel | \ ˈlī-bəl \
-            </p> 
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <i>
-                        a written or oral defamatory statement or representation that conveys an unjustly unfavorable impression
-                    </i> 
-                </li>
-                <li>
-                    // They sued the paper for <i>libel</i>.
-                </li>
-            </ul>
-            <div class='cite'>
-                – Merriam-Webster
-            </div>
-        </div>
+    <div>
+        <p id='holder'>
+            I was wandering the streets. A hobo in every aspect but for my head. My eyes were too innocent—misleadingly so, I thought—and my mind was too self-conscious. I was too aware of my own authenticity, as I trodded along purposelessly through those quaint little back alleys that the make the city I live. I live in a city of dumpsters, bars and bridges. Others here, I suspect, live in a city of restaurants and lawyers offices; titans of industry I imagine them to be. What frail shoes they wear as they walk past me here! I wear boots.
+        </p>
     </div>
 </div>
 
 <style>
-    .cite { text-align: right; }
-    ul{ list-style:none; padding-left: 1em;}
-    li { padding: 7px 0; text-indent: 1em; text-align: justify; }
-    .header {
-        font-style: italic;
-    }
-    .element {
-        width: 90%;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
+    .wrapper {
+        weight: 50vh;
         position: absolute;
     }
-    .wrapper{
-        width: 100%;
-        height: 100%;
+    p {
+        font-size: 1.3em;
+        line-height: 2em;
+        text-align: justify;
     }
 </style>
