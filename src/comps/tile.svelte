@@ -16,7 +16,7 @@
 </script>
 
 <div class='{tilt} wrapper' style="
-    background: {background};
+    background: url(`https://syrkis.ams3.cdn.digitaloceanspaces.com/dielibel/tiles/${background}.png`);
     background-size: cover;
     margin: {margin};
     border: {border}
