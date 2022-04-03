@@ -3,15 +3,15 @@
 
     let tiles = [
         {"name": "square"}, {"name": "us-and-them"}, {"name": "everythingism"},
-        {"name": "the-doubt-and-the-fun"}, {"name": "the-doubt-and-the-fun-alt"}, {"name": "square"},
-        {"name": "us-and-them-alt"},{"name": "us-and-them"}, {"name": "us-and-them-alt"},
+        {"name": "artbreeder-sketch"}, {"name": "the-doubt-and-the-fun-alt"}, {"name": "square"},
+        {"name": "us-and-them-alt"},{"name": "mechanical-turk"}, {"name": "the-doubt-and-the-fun-1"},
         {"name": "square"}, {"name": "us-and-them"}, {"name": "us-and-them"}
     ]
 </script>
 
 <div class='tiles'>
     {#each tiles as tile}  
-        <Tile background={tile.name} tilt="none"><div class='tile'></div></Tile>
+        <Tile background={tile.name} tilt="red-square"><div class='tile'></div></Tile>
     {/each}
 </div>
 
