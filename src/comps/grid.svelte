@@ -2,10 +2,10 @@
     import Tile from './tile.svelte';
 
     let tiles = [
-        {"name": "favicon"}, {"name": "us-and-them"}, {"name": "everythingism"},
-        {"name": "the-doubt-and-the-fun"}, {"name": "the-doubt-and-the-fun-alt"}, {"name": "us-and-them-alt"},
-        {"name": "us-and-them"}, {"name": "us-and-them-alt"}, {"name": "us-and-them"},
-        {"name": "us-and-them"}, {"name": "us-and-them"}, {"name": "us-and-them"}
+        {"name": "square"}, {"name": "us-and-them"}, {"name": "everythingism"},
+        {"name": "the-doubt-and-the-fun"}, {"name": "the-doubt-and-the-fun-alt"}, {"name": "square"},
+        {"name": "us-and-them-alt"},{"name": "us-and-them"}, {"name": "us-and-them-alt"},
+        {"name": "square"}, {"name": "us-and-them"}, {"name": "us-and-them"}
     ]
 </script>
 
