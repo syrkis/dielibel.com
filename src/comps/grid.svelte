@@ -18,25 +18,21 @@
 </script>
 
 <div class='tiles'>
-    <a href="https://dielibel.substack.com"><Tile background="everythingism" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
-    <a href="https://dielibel.substack.com"><Tile background="#da3527" margin="10vh" tilt="red-square"><div class='tile'></div></Tile></a>
+    <Tile background="favicon" margin="75px" tilt="red-square"><div class='tile'></div></Tile>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
+    <a href="everythingism"><Tile background="everythingism" margin="75px" tilt="none"><div class='tile'></div></Tile></a>
 </div>
 
 <style>
-    #interviewer {
-        background: url('https://syrkis.ams3.cdn.digitaloceanspaces.com/noah/bciioi/1.jpg');
-
-    }
     .tiles {
         display: grid;
         grid-gap: 5px;
@@ -44,7 +40,7 @@
     }
     .tiles .tile {
         aspect-ratio: 1;
-        height: 100%;
+        height: 75%;
         display: flex;
         justify-content: center;
     }
@@ -56,8 +52,5 @@
     }
     @media only screen and (min-width: 1200px) {
         .tiles { grid-template-columns: 1fr 1fr 1fr; }
-    }
-    @media only screen and (min-width: 1400px) {
-        .tiles { grid-template-columns: 1fr 1fr 1fr 1fr; }
     }
 </style>
