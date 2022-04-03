@@ -3,9 +3,9 @@
 
     let tiles = [
         {"name": "square"}, {"name": "us-and-them"}, {"name": "everythingism"},
-        {"name": "artbreeder-sketch"}, {"name": "the-doubt-and-the-fun-alt"}, {"name": "square"},
-        {"name": "us-and-them-alt"},{"name": "mechanical-turk"}, {"name": "the-doubt-and-the-fun-1"},
-        {"name": "square"}, {"name": "us-and-them"}, {"name": "us-and-them"}
+        {"name": "artbreeder_sketch"}, {"name": "the-doubt-and-the-fun-alt"}, {"name": "square"},
+        {"name": "mechanical-turk"}, {"name":"artbreeder_portrait"},  {"name": "the-doubt-and-the-fun"},
+        {"name": "square"}, {"name": "us-and-them-alt"}
     ]
 </script>
 
