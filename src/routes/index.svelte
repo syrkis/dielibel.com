@@ -1,5 +1,5 @@
 <script>
-    import Tiles from '../comps/tiles.svelte';
+    import Grid from '../comps/grid.svelte';
     import Banner from '../comps/banner.svelte';
 </script>
 
@@ -8,7 +8,7 @@
         <Banner />
     </div>
     <div id="tiles">
-        <Tiles />
+        <Grid />
     </div>
 </div>
 
